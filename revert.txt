@@ -1,1 +1,2 @@
-A : Commit A
+#A : Commit A
+B : Commit B
