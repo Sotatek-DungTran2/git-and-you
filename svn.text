@@ -1,0 +1,14 @@
+delta1 : 1000
+delta2: plus : 50 -> first commit
+delta3: minus : 100 -> second commit
+delta4: plus : 150 -> third commit
+delta5 :minus : 200 -> fourth commit
+=> total = delta1 + delta2 + delta3 + delta4 + delta5 = 1000 + 50 - 100 + 150 - 200 = 900
+
+=> SVN dựa vào các delta tính từ delta đầu tiên cho tới hiện tại -> thông tin của file
+
+=> Git sẽ lấy luôn snapshot tại thời điểm tại 900
+
+=> Git sẽ nhanh hơn rất nhiều so với SVN
+
+=> Nhưng SVN nó sẽ tốn ít bộ nhớ hơn git vì nó chỉ có lưu 1 file duy nhất , git sẽ sinh ra 5 snapshot để ghi lại các thông tin tại các thời điểm
