@@ -1,7 +1,8 @@
-A
-B
-C
-D
+G
 E
 F
 G
+D
+C
+B
+A
